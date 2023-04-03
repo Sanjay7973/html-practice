@@ -1,0 +1,286 @@
+body {
+    background-color: white;
+}
+
+/* navbar css start  */
+
+.nav-header{
+    background-color: rgb(39, 28, 28);
+}
+span{
+    color: red;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+.nav-link:hover { 
+    transform: scale(1.1);
+    color:white;
+}
+button {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(122, 75, 75);
+    border-radius: 5px;
+}
+.fa-dumbbell{
+    color: white;
+    font-size: 40px;
+    margin-right: 5%;
+    color: red;
+}
+button:hover {
+    background-color: rgb(137, 12, 12);
+}
+@media screen and ((min-width:360px) and (max-width:820px)){
+    .fa-dumbbell{
+        font-size: 25px;
+    }
+
+}
+@media screen and ((min-width:989px) and (max-width:1200px)){
+    .nav-link {
+        font-size: 12px;
+    }
+}
+/* navbar css end  */
+
+/* carousal start here  */
+.carousel-control-prev:hover {
+    background-color: transparent;
+}
+
+.carousel-control-next:hover {
+    background-color: transparent;
+}
+.carousal-section{
+    padding: 0;
+}
+
+/* carousal end here  */
+
+/* second session about us first part start  */
+.firstpart {
+    width: 100%;
+}
+
+.aboutusimg {
+    border-radius: 5px;
+    width: 700px;
+}
+.aboutusimg:hover{
+    box-shadow: 0px 2px 10px 0px rgb(150, 114, 115);
+    transform: scale(1.1);
+    
+}
+
+.whychooseus1 {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#Aboutushanding {
+    text-align: center;
+    color: red;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.whychooseus {
+    display: inline;
+}
+
+.bi {
+    color: rgb(172, 40, 40);
+    font-size: 20px;
+    margin-right: 3%;
+    font-weight: bold;
+}
+
+/* second session about us first part end  */
+
+/* second session our feature second part start  */
+.secondpart {
+    width: 100%;
+    /* border: 2px solid gray; */
+    margin-top: -60px;
+}
+
+.featureimgs {
+    border-radius: 4px;
+}
+.featureimgs:hover{
+    transform: scale(1.1);
+}
+
+.ourfeature {
+    color: red;
+    font-weight: bold;
+}
+
+.onliineSuplDiet {
+    font-size: 20px;
+    text-align: center;
+}
+
+.featureParagraph {
+    text-align: center;
+}
+/* second session our feature second part end */
+
+/* slider start here  */
+
+.sidebar {
+    height: 750px;
+    border-radius: 4px;
+    background-color: rgb(208, 212, 212);
+    overflow: auto;
+}
+.sidebar:hover .specialdiets{
+    color: red;
+    font-weight: bold;
+}
+.specialdiets {
+    font-weight: bold;
+}
+.Dietshandimg {
+    color: rgba(158, 17, 17, 0.833);
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar:hover .sidebarparagraph{
+    font-family: serif;
+    font-weight: bold;
+}
+.specialdietimg {
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+}
+.specialdietimg:hover{
+    box-shadow: 0px 5px 10px 0px rgb(150, 114, 115);
+    transform: scale(1.1);
+}
+@media screen and ((min-width:765px) and (max-width:930px)){
+    .sidebar{
+        width: 100%;
+    }
+}
+/* sliderr end here  */
+
+/* // CONTACT US CSS START  */
+.contactusbackgroundimg {
+    background-image: url(../images/gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+.contactusaddresstext {
+    color: white;
+}
+
+.mobileicon {
+    font-size: 25px;
+    margin-right: 1px;
+    color: white;
+}
+.address {
+    font-size: 20px;
+}
+/* contact us css end  */
+
+
+/* // table css end  */
+table{
+    color: black;
+}
+table,td ,th{
+    border: 5px solid rgb(150, 114, 115);
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+}
+tr{
+    background-color:rgb(241, 231, 231);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+tr:nth-of-type(odd):hover{
+    background-color: rgb(192, 183, 177);
+    color: black;
+}
+th{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+}
+td:hover{
+    box-shadow: 0px 2px 7px 5px rgb(144, 104, 104);
+}
+/* table css end  */
+
+/* footer css start here  */
+.footerbacground{
+    background-color: rgb(60, 49, 49);
+    border-radius: 5px;
+}
+.footelogo{
+    color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.footerlogoparagraph{
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+    font-family: cursive;
+}
+.importantlinks{
+    color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.allfooterlink{
+    margin-top: 5%;
+    margin-left: 4%;
+    padding: 2%;
+}
+.all-links{
+    padding: 1%;
+}
+.all-links a{
+    text-decoration: none;
+    color: white;
+}
+.footeraddress{
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    padding: 2%;
+}
+.footer-address-heading{
+    margin-top: 4%;
+    margin-left: 3%;
+    color: white;
+}
+.footer i {
+    font-size: 27px;
+    color: white;
+    padding: 7px;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+  .footer i:hover {
+    transform: scale(1.2);
+  }
+  /* footer css end here  */
